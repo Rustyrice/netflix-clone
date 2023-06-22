@@ -1,8 +1,8 @@
 ## Building Netflix from Scratch Using React
 
-This application was built using React, Firebase & Styled Components. I have built the following pages within this application: sign in, sign up, browse & lastly the homepage. There are four different pages, some using protected routes with auth listeners. Firebase firestore handles all the data and that data is retrieved using a custom hook; authentication is used on all pages, which is handled by Firebase as well.
+I followed a tutorial on developing a Netflix clone using React, Firebase, and Styled Components. Throughout this project, I created several pages, including sign in, sign up, browse, and the homepage. These pages serve different purposes, with some requiring authentication through protected routes and auth listeners. Data management is handled by Firebase Firestore, and a custom hook is implemented to retrieve the necessary data. Firebase is also responsible for handling authentication across all pages.
 
-I used compound components (just a design pattern) to build my components, and there are over 10 examples as to how these are used. The styling is all handled via styled components. Using compound components made my actual dumb components really easy to test.
+To enhance the structure of my components, I employed the compound components design pattern, which resulted in more than 10 examples showcasing its usage. Styling was seamlessly achieved using styled components. The implementation of compound components greatly simplified the testing process for my components, allowing me to focus on their core functionality.
 
 In the project directory, you can run:
 
